@@ -20,8 +20,11 @@ Write a script/command line executable that will do the following
 
 1. Register an Imgur App to access their API: [https://api.imgur.com/oauth2/addclient](https://api.imgur.com/oauth2/addclient)
 
+2. Declaring dependencies to be installed for a gem: [http://guides.rubygems.org/patterns/#declaring-dependencies](http://guides.rubygems.org/patterns/#declaring-dependencies)
 
 ## Ruby programmers
+
+The scaffold for the Ruby version of this assignment is structured as a gem. It was created by running `bundle gem imgursort`. Dependencies that a gem require are specified in their gemspec, which in the case of this assignment is `imgursort.gemspec`. 
 
 1. Use the `Image` class in `lib/imgursort/image.rb`. Feel free to add more classes/modules/files to achieve the objectives.
 
