@@ -1,7 +1,15 @@
 # Imgursort
 
-This is Padlet's developer take-home assignment. This example is in Ruby, but you should be able to do the same in pretty much any other language. _Note: please do not write Brainf*ck. We'll give you points for trying, but like umbrellas in a sandstorm, it's questionable how much they would be worth._
+This is Padlet's developer take-home assignment. This example is in Ruby, but you should be able to do the same in pretty much any other language. 
 
+_Note: please do not write Brainf*ck. We'll give you points for trying, but like umbrellas in a sandstorm, it's questionable how much they would be worth._
+
+__Languages we prefer__
+
+* Ruby (please refer to [Ruby programmers](#ruby-programmers) below)
+* Javascript
+* Java
+* Swift
 
 ## Objectives
 
@@ -15,6 +23,28 @@ Write a script/command line executable that will do the following
 
 4. Output the sorted images in sorted order in an HTML file. (Look at `example/imgursort.html` if you need a reference).
 
+The output should be an HTML file -- `imgursort.html`. 
+
+## Process
+
+### Questions
+
+If you have any, create an issue in your repo and mention @coffeebite or @quekshuy to bring it to our attention.
+
+### Submission
+
+Email us at tech@padlet.com with a link to your repo once you're done. (Make sure that you've invited us to your repo if it's private). Feel free to hassle us if we have not acknowledged receipt.
+
+Your README.md file should contain the following:
+
+* Dependencies that we might need to install so your executable works
+* Limitations should they exist
+* Assumptions you have made
+* Any information you would find useful for us to know
+
+### Time limit
+
+As a guideline it should take you between 3 - 4 hours to finish the exercise, but don't be nervous if it's taking you longer. We took a long time in the beginning too.
 
 ## Resources
 
@@ -23,6 +53,8 @@ Write a script/command line executable that will do the following
 2. Declaring dependencies to be installed for a gem: [http://guides.rubygems.org/patterns/#declaring-dependencies](http://guides.rubygems.org/patterns/#declaring-dependencies)
 
 ## Ruby programmers
+
+Fork this repository. It contains the scaffolding.
 
 The scaffold for the Ruby version of this assignment is structured as a gem. It was created by running `bundle gem imgursort`. Dependencies that a gem require are specified in their gemspec, which in the case of this assignment is `imgursort.gemspec`. 
 
