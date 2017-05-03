@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+require 'imgursort'
+
+OUTPUT_HTML_FILE_PATH = "/tmp/imgursort.html"
+
+images_sorted_by_dominant_color = []
+html = Imgursort::HtmlGenerator.generate(images_sorted_by_dominant_color)
+
+File.open(OUTPUT_HTML_FILE_PATH, "w") do |f|
+   f.puts(html)
+end
