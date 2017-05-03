@@ -38,7 +38,7 @@ gem install bundler
 
 ```
 
-Add dependencies to `imgursort.gemspec` (read the following section)
+Add dependencies to `imgursort.gemspec` (read the __Dependencies__ section)
 
 Then install the dependencies.
 
